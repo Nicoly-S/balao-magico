@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Balão Mágico">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fe9dc"/><stop offset=".75" stop-color="#e9faf6"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+ <clipPath id="env"><path d="M200 92 C 258 92, 292 130, 290 170 C 288 206, 246 240, 214 262 L 186 262 C 154 240, 112 206, 110 170 C 108 130, 142 92, 200 92 Z"/></clipPath>
+ <path id="ring" d="M200 200 m-160 0 a160 160 0 1 1 320 0 a160 160 0 1 1 -320 0"/>
+</defs>
+<circle cx="200" cy="200" r="200" fill="#fff"/>
+<circle cx="200" cy="200" r="126" fill="url(#bg)"/>
+<text font-family="Nunito,'Arial Black',Arial,sans-serif" font-weight="900" font-size="31" fill="#2a2433">
+ <textPath href="#ring" textLength="1000" lengthAdjust="spacing">BALÃO MÁGICO • BALÃO MÁGICO • BALÃO MÁGICO •</textPath>
+</text>
+<circle cx="118" cy="212" r="7" fill="#c7a6e6"/><circle cx="292" cy="250" r="10" fill="#c7a6e6"/><circle cx="268" cy="108" r="4" fill="#c7a6e6"/><circle cx="160" cy="280" r="3.5" fill="#c7a6e6"/>
+<g clip-path="url(#env)">
+ <rect x="100" y="80" width="100" height="200" fill="#f8d3df"/><rect x="200" y="80" width="100" height="200" fill="#d2bdf0"/>
+ <path d="M200 92 C 128 118, 128 228, 194 262 L 206 262 C 272 228, 272 118, 200 92 Z" fill="#cfe7f7"/><rect x="200" y="80" width="100" height="200" fill="#d3e8b8" clip-path="url(#rh)"/>
+</g>
+<clipPath id="rh"><path d="M200 92 C 128 118, 128 228, 194 262 L 206 262 C 272 228, 272 118, 200 92 Z"/></clipPath>
+<path d="M200 92 C 128 118, 128 228, 194 262 L 206 262 C 272 228, 272 118, 200 92 Z" fill="#cfe7f7" clip-path="url(#lh)"/>
+<clipPath id="lh"><rect x="100" y="80" width="100" height="200"/></clipPath>
+<path d="M200 92 C 128 118, 128 228, 194 262 L 206 262 C 272 228, 272 118, 200 92 Z" fill="#d3e8b8" clip-path="url(#rhh)"/>
+<clipPath id="rhh"><rect x="200" y="80" width="100" height="200"/></clipPath>
+<path d="M200 92 C 166 118, 166 228, 194 262 L 206 262 C 234 228, 234 118, 200 92 Z" fill="#fcf4b5"/>
+<g fill="none" stroke="#2a2433" stroke-width="4.5" stroke-linejoin="round">
+ <path d="M200 92 C 128 118, 128 228, 194 262 L 206 262 C 272 228, 272 118, 200 92 Z"/><path d="M200 92 C 166 118, 166 228, 194 262 L 206 262 C 234 228, 234 118, 200 92 Z"/><path d="M200 92 C 258 92, 292 130, 290 170 C 288 206, 246 240, 214 262 L 186 262 C 154 240, 112 206, 110 170 C 108 130, 142 92, 200 92 Z"/>
+ <path d="M188 262 L184 284 M212 262 L216 284" stroke-width="3.5"/>
+</g>
+<path d="M178 284 H222 L217 316 H183 Z" fill="#ef9a3c" stroke="#2a2433" stroke-width="4" stroke-linejoin="round"/>
+<path d="M176 283 H224 V292 H176 Z" fill="#f6b25a" stroke="#2a2433" stroke-width="4" stroke-linejoin="round"/>
+<text x="200" y="192" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-weight="700" font-size="46" fill="#c39be6" stroke="#2a2433" stroke-width="1.6" paint-order="stroke">BM</text>
+<polygon points="149.0,95.3 151.4,106.8 162.8,109.6 152.6,115.5 153.5,127.3 144.7,119.4 133.8,123.8 138.6,113.0 131.0,104.0 142.7,105.3" fill="#f3c933" stroke="#2a2433" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="271.8,158.4 280.6,172.6 297.2,170.7 286.4,183.5 293.3,198.7 277.8,192.3 265.5,203.6 266.7,186.9 252.2,178.7 268.4,174.7" fill="#f3c933" stroke="#2a2433" stroke-width="3.5" stroke-linejoin="round"/>
+<polygon points="150.0,241.0 152.9,248.0 160.5,248.6 154.8,253.5 156.5,260.9 150.0,257.0 143.5,260.9 145.2,253.5 139.5,248.6 147.1,248.0" fill="#f3c933" stroke="#2a2433" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="124.0,184.0 126.8,195.2 138.0,198.0 126.8,200.8 124.0,212.0 121.2,200.8 110.0,198.0 121.2,195.2" fill="#cfe7b0" stroke="#2a2433" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="256.0,235.0 258.5,243.5 267.0,246.0 258.5,248.5 256.0,257.0 253.5,248.5 245.0,246.0 253.5,243.5" fill="#cfe7b0" stroke="#2a2433" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="250.0,110.0 251.8,116.2 258.0,118.0 251.8,119.8 250.0,126.0 248.2,119.8 242.0,118.0 248.2,116.2" fill="#fff" stroke="#2a2433" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="132.0,146.0 133.8,152.2 140.0,154.0 133.8,155.8 132.0,162.0 130.2,155.8 124.0,154.0 130.2,152.2" fill="#fff" stroke="#2a2433" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
